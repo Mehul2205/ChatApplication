@@ -7,7 +7,7 @@ const {generateMessage, generateLocationMessage} = require('./utils/messages')
 const {addUser, removeUser, getUser, getUserInRoom} = require('./utils/users')
 
 const app = express()
-const port = process.env.PORT
+const port = process.env.PORT || 3000
 
 const server = http.createServer(app)
 const io = socketio(server)
