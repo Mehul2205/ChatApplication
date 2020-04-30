@@ -36,8 +36,11 @@ This is live at - https://mehul2205-chat-application.herokuapp.com/
 > npm run start
     OR
 > cd src
-> node 1_express.js
+> node index.js
 ```
+
+This is an optional step :point_down:
+* You can also add config file to the code to ensure security but it will also work perfeclty if you don't add it. 
 * And your project is live on **localhost:3000**
 * Hit **star button** if you like this project. :+1:
 
